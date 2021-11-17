@@ -31,7 +31,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="#about-popup" onclick="navAppear();">
                                 პროექტის შესახებ
                             </a>
                         </li>
@@ -51,22 +51,22 @@
             <div class="row">
                 <div class="all-chatbots">
                     <div class="col-6 ">
-                       <div class="chatbots-box margin-right">
-                        <div class="chatbots-box-contant">
-                            <h5 class="chatbots-box-title">
-                                <span class="chatbots-box-title-span">
-                                    ქართლის
-                                </span> ჩეთბოტი
-                                </h4>
-                                <a class="chatbots-box-title-a" href="#">
-                                    <img src="/assets/images/icons/about-purple-chats.svg" alt="about-purple-chats">
-                                    დაელაპარაკე
-                                </a>
+                        <div class="chatbots-box margin-right">
+                            <div class="chatbots-box-contant">
+                                <h5 class="chatbots-box-title">
+                                    <span class="chatbots-box-title-span">
+                                        ქართლის
+                                    </span> ჩეთბოტი
+                                    </h4>
+                                    <a class="chatbots-box-title-a" href="#">
+                                        <img src="/assets/images/icons/about-purple-chats.svg" alt="about-purple-chats">
+                                        დაელაპარაკე
+                                    </a>
+                            </div>
+                            <div class="chatbots-box-img">
+                                <img src="/assets/images/chatbots/chatbots-img.png" alt="chatbots-img">
+                            </div>
                         </div>
-                        <div class="chatbots-box-img">
-                            <img src="/assets/images/chatbots/chatbots-img.png" alt="chatbots-img">
-                        </div>
-                       </div>
                     </div>
                     <div class="col-6 ">
                         <div class="chatbots-box">
@@ -203,6 +203,214 @@
         </div>
 
     </footer>
+
+    <div id="about-popup" class="overlay">
+        <div class="popup" id="pop-dessapear">
+
+            <a class="close close-in" id="close-in" onclick="navDessapear();" href="javascript:void(0);">
+                <img src="/assets/images/icons/close-icon.svg" alt="close-icon">
+            </a>
+
+            <div class="about-project-content">
+                <div class="about-project-item">
+                    <div class="container">
+
+                        <div class="about-title">
+                            <h2 class="about-title-h2">
+                                <span class="about-title-span">პროექტის</span> შესახებ
+                            </h2>
+
+                        </div>
+
+                        <div class="about-project-text-content">
+                            <p class="about-project-text-p">
+                                ლორემ იპსუმ ტელეარხებმა ხიბლავს გაფორმებასა ჰყვებოდა, უდმურტეთიდან მკვახე ჰზიდოს
+                                წამოგვცდენოდა გარემოება დამეთმო. ოდისეის ტიალი ცხელის, ეგზოტიკურ ზღაპრებს მსხვერპლმა
+                                ჩაუკრა ამბავსაც დაიმორჩილა, ქუდმოუხდელი ბეტ ჯენზე უმის. მკვახე ესპანურის შევუფარდო,
+                                ჯჯაყო ჩაექსოვნენ, გაჩვარებული ფუღუროში უმის ჩაკვლის გოლიათური.
+                            </p>
+                            <p class="about-project-text-p">
+                                მთავრობასა გამოფიტულ ჟინის სიკვდილისკენ გვგლეჯდნენ მოაცვლევინა მეზობელს გამეფებულ ქაფია
+                                ჰენდონს ვუკეთებდი ვითარდება. ინისლებოდა მიართო შენზედ დავწერო სახელდახელოდ სულელურ,
+                                ქაფია გაფინანსებთ როკო. გამეფებულ გვგლეჯდნენ შეუნელებია მამამისმა ესვრიან ყბედობას ულუფა
+                                სამიკიტნოში ჭადარი. მოშურნე გაიმეორებდა მამამისმა ქლესაობით დავწერო, გვიყვარს საწყენად
+                                ნაფიცმა. გვიყვარს საცობი მოეკრა მედიცინა სიკვდილისკენ ცცხრა შეუნელებია, შემოღობილი
+                                უცოდველი თეატრალიზებული საწყენად.
+                            </p>
+                        </div>
+
+                        <div class="team-section">
+                            <div class="team-title">
+                                <h3 class="team-title-h3">
+                                    გუნდი
+                                </h3>
+                            </div>
+
+                            <div class="team-members">
+                                <div class="row">
+                                    <div class="col-6 team-members-item">
+                                        <p class="team-members-name">
+                                            სანდრო ასათიანი
+                                        </p>
+                                        <p class="team-members-position">
+                                            იდეის ავტორი
+                                        </p>
+                                    </div>
+                                    <div class="col-6 team-members-item">
+                                        <p class="team-members-name">
+                                            სანდრო ასათიანი
+                                        </p>
+                                        <p class="team-members-position">
+                                            იდეის ავტორი
+                                        </p>
+                                    </div>
+                                    <div class="col-6 team-members-item">
+                                        <p class="team-members-name">
+                                            სანდრო ასათიანი
+                                        </p>
+                                        <p class="team-members-position">
+                                            იდეის ავტორი
+                                        </p>
+                                    </div>
+                                    <div class="col-6 team-members-item">
+                                        <p class="team-members-name">
+                                            სანდრო ასათიანი
+                                        </p>
+                                        <p class="team-members-position">
+                                            იდეის ავტორი
+                                        </p>
+                                    </div>
+                                    <div class="col-6 team-members-item">
+                                        <p class="team-members-name">
+                                            სანდრო ასათიანი
+                                        </p>
+                                        <p class="team-members-position">
+                                            იდეის ავტორი
+                                        </p>
+                                    </div>
+                                    <div class="col-6 team-members-item">
+                                        <p class="team-members-name">
+                                            სანდრო ასათიანი
+                                        </p>
+                                        <p class="team-members-position">
+                                            იდეის ავტორი
+                                        </p>
+                                    </div>
+                                    <div class="col-6 team-members-item">
+                                        <p class="team-members-name">
+                                            სანდრო ასათიანი
+                                        </p>
+                                        <p class="team-members-position">
+                                            იდეის ავტორი
+                                        </p>
+                                    </div>
+                                    <div class="col-6 team-members-item">
+                                        <p class="team-members-name">
+                                            სანდრო ასათიანი
+                                        </p>
+                                        <p class="team-members-position">
+                                            იდეის ავტორი
+                                        </p>
+                                    </div>
+                                    <div class="col-6 team-members-item">
+                                        <p class="team-members-name">
+                                            სანდრო ასათიანი
+                                        </p>
+                                        <p class="team-members-position">
+                                            იდეის ავტორი
+                                        </p>
+                                    </div>
+                                    <div class="col-6 team-members-item">
+                                        <p class="team-members-name">
+                                            სანდრო ასათიანი
+                                        </p>
+                                        <p class="team-members-position">
+                                            იდეის ავტორი
+                                        </p>
+                                    </div>
+                                    <div class="col-6 team-members-item">
+                                        <p class="team-members-name">
+                                            სანდრო ასათიანი
+                                        </p>
+                                        <p class="team-members-position">
+                                            იდეის ავტორი
+                                        </p>
+                                    </div>
+                                    <div class="col-6 team-members-item">
+                                        <p class="team-members-name">
+                                            სანდრო ასათიანი
+                                        </p>
+                                        <p class="team-members-position">
+                                            იდეის ავტორი
+                                        </p>
+                                    </div>
+                                    <div class="col-6 team-members-item">
+                                        <p class="team-members-name">
+                                            სანდრო ასათიანი
+                                        </p>
+                                        <p class="team-members-position">
+                                            იდეის ავტორი
+                                        </p>
+                                    </div>
+                                    <div class="col-6 team-members-item">
+                                        <p class="team-members-name">
+                                            სანდრო ასათიანი
+                                        </p>
+                                        <p class="team-members-position">
+                                            იდეის ავტორი
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        function remove_hash_from_url() {
+            var uri = window.location.toString();
+
+            if (uri.indexOf("#") > 0) {
+                var clean_uri = uri.substring(0,
+                    uri.indexOf("#"));
+
+                window.history.replaceState({},
+                    document.title, clean_uri);
+            }
+        }
+
+        // remove_hash_from_url();
+
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('about-popup').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+
+        var navDessapear = function () {
+            document.getElementById("about-popup").style.display = "none";
+            document.querySelector("body").style.overflow = "inherit";
+        }
+        var navAppear = function () {
+            document.getElementById("about-popup").style.display = "inherit";
+            document.querySelector("body").style.overflow = "hidden";
+        }
+    </script>
+
 </body>
 
 </html>

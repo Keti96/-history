@@ -90,3 +90,116 @@
 .chatbots-box-title-a img {
     margin-right: 4px;
 }
+
+/* about popup */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(8, 9, 43, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 120px auto;
+    background: transparent;
+    z-index: 9999;
+    width: 1132px;
+    height: auto;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+#about-popup {
+    z-index: 9999;
+    overflow-x: auto;
+}
+
+.popup .close {
+    position: absolute;
+    top: 1px;
+    right: -45px;
+}
+
+.about-project-content {
+    width: 1132px;
+}
+
+.about-project-item {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border: 3px solid #F5F5F5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 132px 115px 96px 115px;
+}
+
+.about-title-h2 {
+    font-family: 'FiraGo';
+    font-size: 28px;
+    line-height: 33.6px;
+    color: #08092B;
+    font-feature-settings: 'case' on;
+}
+
+.about-title-span {
+    font-family: 'FiraGo ExtraBold';
+}
+
+.about-project-text-content {
+    padding-top: 16px;
+}
+
+.about-project-text-p {
+    padding-top: 36px;
+    font-family: 'FiraGo';
+    font-size: 16px;
+    line-height: 32px;
+    color: #3B3C52;
+}
+
+.team-section {
+    padding-top: 72px;
+}
+
+.team-title-h3 {
+    font-family: 'FiraGo Bold';
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #3B3C52;
+    padding-bottom: 52px;
+}
+
+.team-members-item {
+    padding-bottom: 36px;
+}
+
+.team-members-name {
+    font-family: 'FiraGo';
+    font-size: 18px;
+    line-height: 27px;
+    color: #3B3C52;
+    padding-bottom: 8px;
+}
+
+.team-members-position {
+    font-family: 'FiraGo';
+    font-size: 14px;
+    line-height: 21px;
+    color: #3B3C52;
+    padding-bottom: 8px;
+}
+
+/* about popup end */
