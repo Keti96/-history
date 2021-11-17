@@ -105,7 +105,7 @@
 }
 
 .kartli-chatbot-bg {
-    background-image: url('/assets/images/index/kartli-bg.png');
+    background-image: url('./assets/images/index/kartli-bg.png');
     background-color: #08092B;
     padding-top: 77px;
 }
@@ -118,7 +118,7 @@
 }
 
 .imereti-chatbot-bg {
-    background-image: url('/assets/images/index/imereti-bg.png');
+    background-image: url('./assets/images/index/imereti-bg.png');
     background-color: #7541EE;
     padding-top: 64px;
 }
