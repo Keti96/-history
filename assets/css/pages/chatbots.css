@@ -1,0 +1,92 @@
+.history-about-header {
+    padding-top: 36px;
+    padding-bottom: 32px;
+}
+
+.history-about-main {
+    background-color: #F7F7FC;
+}
+
+.history-about-main {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.chatbots-text-item {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.chatbots-title-h2 {
+    font-family: 'FiraGo ExtraBold';
+    font-size: 46px;
+    line-height: 55px;
+    color: #08092B;
+    font-feature-settings: 'case' on;
+}
+
+.chatbots-create-a {
+    font-family: 'FiraGo';
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #08092B;
+    padding: 22px 40px;
+    border: 1px solid #08092B;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.chatbots-create-a:hover {
+    color: #08092B;
+}
+
+.all-chatbots {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.chatbots-box {
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.chatbots-box-contant {
+    padding-top: 48px;
+    padding-left: 30px;
+}
+
+.chatbots-box-title {
+    font-family: 'FiraGo';
+    font-size: 20px;
+    line-height: 28px;
+    color: #08092B;
+}
+
+.chatbots-box-title-span {
+    font-family: 'FiraGo ExtraBold';
+}
+
+.margin-right {
+    margin-right: 12px;
+}
+
+.chatbots-box-title-a {
+    display: flex;
+    font-family: 'FiraGo';
+    font-size: 12px;
+    line-height: 14px;
+    color: #7541EE;
+    align-self: center;
+    text-align: center;
+    margin-top: 46px;
+}
+
+.chatbots-box-title-a img {
+    margin-right: 4px;
+}

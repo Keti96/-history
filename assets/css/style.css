@@ -2,3 +2,8 @@
 @import "./partials/reset.css";
 @import "./components/inputs.css";
 @import "./components/buttons.css";
+
+
+@import "./responsive.css";
+@import "./pages/index.css";
+@import "./pages/chatbots.css";

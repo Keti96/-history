@@ -1,0 +1,268 @@
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 902px!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.navbar-collapse {
+    flex-grow: inherit;
+}
+
+.history-header {
+    padding-top: 36px;
+    background: rgba(238, 246, 255, 0.9);
+    backdrop-filter: blur(150px);
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    padding-bottom: 0;
+}
+
+.history-nav .nav-item .nav-link {
+    font-family: 'FiraGo';
+    font-size: 14px;
+    line-height: 17px;
+    color: #08092B;
+}
+
+.header-content {
+    margin-top: 196px;
+    padding-bottom: 200px;
+    position: relative;
+}
+
+.header-content-h1 {
+    font-family: 'FiraGO';
+    font-size: 46px;
+    line-height: 55.2px;
+    color: #08092B;
+    font-feature-settings: 'case' on;
+    z-index: 99;
+    position: relative;
+}
+
+.header-content-span {
+    font-family: 'FiraGO ExtraBold';
+}
+
+.header-content-button {
+    margin-top: 52px;
+    display: flex;
+}
+
+.header-content-button a {
+    font-family: 'FiraGo';
+    font-size: 12px;
+    line-height: 14.4px;
+}
+
+.talk-chatbot {
+    background-color: #08092B;
+    border-radius: 12px;
+    padding: 22px 40px;
+    color: #FFFFFF;
+    margin-right: 16px;
+}
+
+.talk-chatbot:hover {
+    color: #FFFFFF;
+}
+
+.create-chatbot {
+    background-color: transparent;
+    border: 1px solid #08092B;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 22px 40px;
+    color: #08092B;
+}
+
+.create-chatbot:hover {
+    color: #08092B;
+}
+
+.blue-chat {
+    position: absolute;
+    bottom: 44.58px;
+    right: -172px;
+}
+
+.purple-chat {
+    position: absolute;
+    bottom: -71px;
+    left: -195px;
+}
+
+.header-content-line {
+    left: -52px;
+    top: -43px;
+    position: absolute;
+}
+
+.kartli-chatbot-bg {
+    background-image: url('/assets/images/index/kartli-bg.png');
+    background-color: #08092B;
+    padding-top: 77px;
+}
+
+.kartli-chatbot-content, .imereti-chatbot-content {
+    width: 1050px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imereti-chatbot-bg {
+    background-image: url('/assets/images/index/imereti-bg.png');
+    background-color: #7541EE;
+    padding-top: 64px;
+}
+
+.kartli-img {
+    width: 526.43px;
+    height: 445px;
+}
+
+.imereti-img {
+    width: 521px;
+    height: 458px;
+}
+
+.kartli-chatbot-item {
+    margin-top: 88px;
+    margin-left: 38.6px;
+}
+
+.imereti-chatbot-item {
+    margin-top: 101px;
+    margin-left: 82px;
+}
+
+.kartli-chatbot-title, .imereti-chatbot-title {
+    font-family: 'FiraGo';
+    font-size: 46px;
+    line-height: 55.2px;
+    color: #FFFFFF;
+    font-feature-settings: 'case' on;
+}
+
+.kartli-chatbot-span, .imereti-chatbot-span {
+    font-family: 'FiraGo ExtraBold';
+}
+
+.kartli-chatbot-p, .imereti-chatbot-p {
+    font-family: 'FiraGo Light';
+    font-size: 14px;
+    line-height: 25.2px;
+    color: #FFFFFF;
+    margin-top: 28px;
+}
+
+.kartli-chatbot-a, .imereti-chatbot-a {
+    display: flex;
+    margin-top: 36px;
+    font-family: 'FiraGo Book';
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #FFC801;
+}
+
+.kartli-chatbot-a:hover, .imereti-chatbot-a:hover {
+    color: #FFC801;
+}
+
+.kartli-chatbot-a img, .imereti-chatbot-a img {
+    align-self: center;
+    margin-right: 12px;
+}
+
+.other-chatbots {
+    background-color: #F7F7FC;
+}
+
+.other-chatbots-item {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 60px 0;
+    cursor: pointer;
+}
+
+.other-chatbots-h4 {
+    font-family: 'FiraGo';
+    font-size: 32px;
+    line-height: 38.4px;
+    color: #08092B;
+    font-feature-settings: 'case' on;
+}
+
+.other-chatbots-span {
+    font-family: 'FiraGo ExtraBold';
+}
+
+.history-footer {
+    margin-top: 136px;
+    padding-bottom: 115px;
+}
+
+.history-footer-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav-p {
+    font-family: 'FiraGo';
+    font-size: 14px;
+    line-height: 14px;
+    color: #9191A6;
+    align-self: center;
+}
+
+.footer-nav-a {
+    text-decoration: underline;
+    color: #3B3C52;
+}
+
+.history-footer-main {
+    margin-top: 72px;
+}
+
+.history-footer-content-p {
+    font-family: 'FiraGo';
+    font-size: 16px;
+    line-height: 32px;
+    color: #767786;
+}
+
+.history-footer-end {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Education-logo {
+    display: flex;
+}
+
+.Education-logo-emis {
+    margin-right: 39px;
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.footer-copyright-span {
+    font-family: 'FiraGO';
+    font-size: 12px;
+    line-height: 20px;
+    color: #767786;
+    text-align: right;
+}
