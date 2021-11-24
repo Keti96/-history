@@ -4,12 +4,9 @@
 }
 
 .history-about-main {
-    background-color: #F7F7FC;
-}
-
-.history-about-main {
     padding-top: 100px;
     padding-bottom: 100px;
+    background-color: #F7F7FC;
 }
 
 .chatbots-text-item {

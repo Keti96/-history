@@ -1,0 +1,34 @@
+.history-chatbot-main {
+    padding: 72px 0;
+    background-color: #F7F7FC;
+}
+
+.imereti-chatbot-box {
+    background-color: #FFFFFF;
+    display: flex;
+}
+.imereti-chatbot-box-content {  
+    padding: 85px 113px 0 67px;
+}
+
+.imereti-chatbot-box-title {
+    font-family: 'FiraGo';
+    font-size: 28px;
+    line-height: 39.2px;
+    color: #08092B;
+}
+
+.imereti-chatbot-box-title-span {
+    font-family: 'FiraGo ExtraBold';
+}
+
+.imereti-chatbot-box-p {
+    font-family: 'FiraGo Book';
+    font-size: 14px;
+    line-height: 23.8px;
+    color: rgba(59, 60, 82, .7);
+    padding-top: 74px;
+}
+.pl-0 {
+    padding-left: 0!important;
+}
