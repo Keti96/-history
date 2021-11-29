@@ -1,10 +1,171 @@
+
+@media (min-width: 1200px) {
+    .container-our {
+        max-width: 902px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+}
 @media (min-width: 1400px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 902px!important;
+    .popup{
+        width: 1132px;
     }
 }
-@media (min-width: 1200px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 902px!important;
+@media (max-width: 1400px) {
+    .blue-chat, .purple-chat {
+        display: none;
+    }
+    .popup .close{
+        right: 40px;
+        top: 35px;
+    }
+    .x-white{
+        display: none;
+    }
+    .x-black{
+        display: initial;
+    }
+}
+
+@media (max-width: 1200px) {
+    .kartli-chatbot-content, .imereti-chatbot-content {
+        display: block;
+    }
+    
+
+    .kartli-chatbot-item, .imereti-chatbot-item {
+        margin: 88px auto 0 auto;
+        padding-bottom: 38px;
+        text-align: center;
+
+    }
+
+    .kartli-chatbot-a, .imereti-chatbot-a {
+        width: fit-content;
+        margin: 36px auto 0 auto;
+    }
+
+    .kartli-img, .imereti-img3 {
+        margin: 0 auto;
+    }
+
+    .imereti-img2 {
+        display: none;
+    }
+
+    .imereti-img3 {
+        display: block;
+    }
+
+    .imereti-chatbot-bg {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .kartli-chatbot-content, .imereti-chatbot-content{
+        width: 100%;
+    }
+    .other-chatbots-item img{
+        margin: auto;
+        width: 100%;
+        height: initial;
+    }
+    .other-chatbots-h4{
+        text-align: center;
+    }
+    .other-chatbots-item{
+        display: block;
+    }
+}
+@media (max-width: 991px) {
+    .header-content-line{
+        display: none;
+    }
+    .chatbots-box-contant{
+        margin-left: auto;
+    }
+    .chatbots-box-img{
+        margin-right: auto;
+    }
+    .margin-right{
+        margin-right: 0;
+    }
+    .about-project-item{
+        
+    padding: 70px 20px 15px 20px;
+
+    }
+}
+@media (max-width: 567px) {
+    .kartli-img, .imereti-img{
+        display: none;
+    }
+    .header-content-button{
+        display: grid;
+        width: 100%;
+    }
+    .talk-chatbot,.create-chatbot{
+        width: 100%;
+        text-align: center;
+        margin: 10px auto;
+    }
+    .history-footer-header,.history-footer-end{
+        display: block;
+    }
+    .footer-nav-p{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .history-footer-header img{
+        margin: 0 auto;
+    }
+    .Education-logo-emis{
+        margin-left: auto;
+    }
+    .Education-logo-mes{
+        margin-right: auto;
+    }
+    .footer-copyright{
+        margin-top: 25px;
+    }
+    .footer-copyright-span{
+        text-align: center;
+
+    }
+    .chatbots-box-img2{
+        display: none;
+    }
+    .chatbots-box-img3{
+        display: block;
+    }
+    .chatbots-box{
+        display: block;
+    }
+    .chatbots-text-item{
+        display: block;
+        width: 100%;
+        height: initial;
+    }
+    .chatbots-box-img img{
+        margin: 0 auto;
+    }
+    .chatbots-box-contant{
+        padding-left: 0;
+    }
+    .chatbots-box-title{
+        text-align: center;
+    }
+    .chatbots-box-title-a{
+        margin: 28px auto 0 auto;
+        width: fit-content;
+    }
+    .chatbots-title-h2{
+        text-align: center;
+    }
+    .chatbots-create-a{
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+        display: block;
     }
 }

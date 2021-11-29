@@ -1,8 +1,4 @@
-.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 902px!important;
-    padding-left: 0!important;
-    padding-right: 0!important;
-}
+
 
 .navbar-collapse {
     flex-grow: inherit;
@@ -182,7 +178,9 @@
     align-self: center;
     margin-right: 12px;
 }
-
+.imereti-img3{
+    display: none;
+}
 .other-chatbots {
     background-color: #F7F7FC;
 }

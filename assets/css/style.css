@@ -4,8 +4,9 @@
 @import "./components/buttons.css";
 
 
-@import "./responsive.css";
+
 @import "./pages/index.css";
 @import "./pages/chatbots.css";
 @import "./pages/imereti-chatbot.css";
 @import "./pages/kartli-chatbot.css";
+@import "./responsive.css";

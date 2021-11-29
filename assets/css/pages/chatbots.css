@@ -111,7 +111,7 @@
     margin: 120px auto;
     background: transparent;
     z-index: 9999;
-    width: 1132px;
+    /* width: 1132px; */
     height: auto;
     position: relative;
     left: 0;
@@ -126,12 +126,12 @@
 .popup .close {
     position: absolute;
     top: 1px;
-    right: -45px;
+    right: -75px;
 }
 
-.about-project-content {
+/* .about-project-content {
     width: 1132px;
-}
+} */
 
 .about-project-item {
     width: 100%;
@@ -200,3 +200,6 @@
 }
 
 /* about popup end */
+.chatbots-box-img3{
+    display: none;
+}
