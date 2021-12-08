@@ -42,8 +42,6 @@
 .all-chatbots {
     padding-top: 80px;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .chatbots-box {
@@ -202,4 +200,8 @@
 /* about popup end */
 .chatbots-box-img3{
     display: none;
+}
+
+.container-two {
+    width: 902px;
 }

@@ -1,171 +1,411 @@
-
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     .container-our {
         max-width: 902px;
         padding-left: 0;
         padding-right: 0;
     }
-    
+
 }
-@media (min-width: 1400px) {
-    .popup{
+
+@media only screen and (min-width: 1400px) {
+    .popup {
         width: 1132px;
     }
 }
-@media (max-width: 1400px) {
+
+@media only screen and (max-width: 1400px) {
     .blue-chat, .purple-chat {
         display: none;
     }
-    .popup .close{
+
+    .popup .close {
         right: 40px;
         top: 35px;
     }
-    .x-white{
+
+    .x-white {
         display: none;
     }
-    .x-black{
+
+    .x-black {
         display: initial;
     }
 }
 
-@media (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     .kartli-chatbot-content, .imereti-chatbot-content {
-        display: block;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: center;
     }
-    
 
-    .kartli-chatbot-item, .imereti-chatbot-item {
-        margin: 88px auto 0 auto;
-        padding-bottom: 38px;
-        text-align: center;
+    .kartli-chatbot-title, .imereti-chatbot-title {
+        font-size: 36px;
+    }
+}
 
+@media only screen and (max-width: 991px) {
+    .container-two {
+        width: initial;
+    }
+
+    .all-chatbots {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .chatbots-box {
+        margin: 0 auto 12px;
+    }
+
+    .history-nav {
+        margin-top: 28px;
+    }
+
+    .history-nav .nav-item .nav-link {
+        font-family: 'FiraGo';
+        font-size: 14px;
+        line-height: 17px;
+        color: #08092B;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .kartli-img, .imereti-img {
+        width: 35%;
+    }
+
+    .kartli-chatbot-item {
+        margin-top: 18px;
+    }
+
+    .imereti-chatbot-item {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .kartli-chatbot-bg {
+        padding-top: 60px;
+    }
+
+    .other-chatbots-arrow {
+        width: 50%;
+    }
+
+    .kartli-chatbot-title, .imereti-chatbot-title {
+        font-size: 28px;
+    }
+
+    .kartli-chatbot-p, .imereti-chatbot-p {
+        margin-top: 16px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
     }
 
     .kartli-chatbot-a, .imereti-chatbot-a {
-        width: fit-content;
-        margin: 36px auto 0 auto;
+        margin-top: 22px;
     }
 
-    .kartli-img, .imereti-img3 {
+    .about-project-item {
+        padding: 50px;
+    }
+
+    /* imereti chatbot */
+
+    .imereti-chatbot-box img {
+        width: 35%;
+    }
+
+    .imereti-chatbot-box-p {
+        padding-top: 24px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .history-footer {
+        margin-top: 75px;
+        padding-bottom: 65px;
+    }
+
+    .kartli-chatbot-content, .imereti-chatbot-content {
+        width: 100%;
+    }
+
+    .kartli-chatbot-item {
+        margin-top: 20px;
+    }
+
+    .imereti-chatbot-item {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    .kartli-chatbot-title, .imereti-chatbot-title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .kartli-chatbot-a {
+        font-size: 14px;
+    }
+
+    .header-content-h1 {
+        font-size: 36px;
+        line-height: 48.2px;
+    }
+
+    .header-content {
+        margin-top: 126px;
+        padding-bottom: 130px;
+        position: relative;
+    }
+
+    .header-content-line {
+        left: -37px;
+        top: -28px;
+        width: 16%;
+    }
+
+    .other-chatbots-h4 {
+        font-size: 24px;
+        line-height: 28.4px;
+    }
+
+    .kartli-chatbot-a, .imereti-chatbot-a {
+        font-size: 14px;
+        line-height: 17.2px;
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0;
+    }
+
+    .other-chatbots-arrow {
+        display: none;
+    }
+
+    .small-arrow {
+        display: initial;
+    }
+
+    /* imereti chatbot */
+    .imereti-chatbot-box-content {
+        padding: 40px 10px 0 34px;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .header-content-line {
+        left: -10px;
+        top: -19px;
+        width: 61px;
+    }
+
+    /* imereti chatbot */
+    .history-chatbot-main {
+        padding: 72px 20px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .chatbots-box {
+        margin-bottom: 12px;
+    }
+
+    .chatbots-title-h2 {
+        font-size: 36px;
+    }
+
+    .chatbots-create-a {
+        padding: 19px 22px;
+    }
+
+    .chatbots-box-title-a {
+        margin-top: 23px;
+    }
+
+    .chatbots-box-img1 img {
+        width: 100%;
+    }
+
+    .header-content-button a {
+        line-height: 4.4px;
+    }
+
+    .talk-chatbot, .create-chatbot {
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    .kartli-chatbot-item {
+        margin-left: 18px;
+    }
+
+    .Education-logo-emis {
+        margin-right: 20px;
+    }
+
+    .kartli-chatbot-a, .imereti-chatbot-a {
+        font-size: 12px;
+        line-height: 15.2px;
+        margin-top: 15px;
+    }
+
+    .kartli-chatbot-p, .imereti-chatbot-p {
+        font-size: 12px;
+    }
+
+    .kartli-chatbot-title, .imereti-chatbot-title {
+        font-size: 20px;
+    }
+
+    .kartli-chatbot-a img, .imereti-chatbot-a img {
+        margin-right: 8px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .kartli-chatbot-item {
+        margin-top: 12px;
+    }
+
+    .imereti-chatbot-item {
+        margin-top: 15px;
+        margin-left: 0;
+        margin-right: 12px;
+    }
+
+    .kartli-chatbot-bg {
+        padding-top: 45px;
+    }
+
+    .about-project-item {
+        padding: 50px 30px;
+    }
+
+    .imereti-chatbot-box-p {
+        padding-top: 24px;
+        -webkit-line-clamp: 2;
+    }
+
+    .imereti-chatbot-box-title {
+        font-size: 24px;
+        line-height: 39.2px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    /* index page */
+    .Education-logo {
+        margin-bottom: 45px;
+    }
+
+    .footer-copyright-span {
+        text-align: center;
+    }
+
+    .footer-nav-a {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .Education-logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+
+    .history-footer-end {
+        flex-direction: column;
+        margin-top: 55px;
+    }
+
+    /* imereti page */
+    .imereti-chatbot-box-p {
+        padding-top: 15px;
+    }
+
+    .imereti-chatbot-box-title {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+    /* index page */
+    .kartli-img, .imereti-img {
+        width: 30%;
+    }
+
+    .kartli-chatbot-bg, .imereti-chatbot-bg {
+        padding: 45px 0;
+    }
+
+    .kartli-chatbot-title, .imereti-chatbot-title {
+        font-size: 17px;
+    }
+
+    /* imereti page */
+    .imereti-chatbot-box img {
+        width: 100%;
         margin: 0 auto;
     }
 
-    .imereti-img2 {
-        display: none;
+    .imereti-chatbot-box {
+        flex-direction: column;
     }
 
-    .imereti-img3 {
-        display: block;
-    }
-
-    .imereti-chatbot-bg {
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .kartli-chatbot-content, .imereti-chatbot-content{
-        width: 100%;
-    }
-    .other-chatbots-item img{
-        margin: auto;
-        width: 100%;
-        height: initial;
-    }
-    .other-chatbots-h4{
-        text-align: center;
-    }
-    .other-chatbots-item{
-        display: block;
+    .imereti-chatbot-box-content {
+        padding: 40px 10px 60px 34px;
     }
 }
-@media (max-width: 991px) {
-    .header-content-line{
-        display: none;
+
+@media only screen and (max-width: 415px) {
+
+    .chatbots-box-contant {
+        padding-top: 24px;
+        padding-left: 15px;
     }
-    .chatbots-box-contant{
-        margin-left: auto;
+
+    .chatbots-create-a {
+        padding: 19px 14px;
     }
-    .chatbots-box-img{
-        margin-right: auto;
+
+    .chatbots-title-h2 {
+        font-size: 24px;
     }
-    .margin-right{
+
+    .header-content-button {
+        flex-direction: column;
+        width: 58%;
+    }
+
+    .talk-chatbot {
         margin-right: 0;
     }
-    .about-project-item{
-        
-    padding: 70px 20px 15px 20px;
 
+    .create-chatbot {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .talk-chatbot, .create-chatbot {
+        padding: 25px;
+    }
+
+    .about-project-item {
+        padding: 50px 15px;
     }
 }
-@media (max-width: 567px) {
-    .kartli-img, .imereti-img{
-        display: none;
-    }
-    .header-content-button{
-        display: grid;
-        width: 100%;
-    }
-    .talk-chatbot,.create-chatbot{
-        width: 100%;
-        text-align: center;
-        margin: 10px auto;
-    }
-    .history-footer-header,.history-footer-end{
-        display: block;
-    }
-    .footer-nav-p{
-        margin-top: 20px;
-        text-align: center;
-    }
-    .history-footer-header img{
-        margin: 0 auto;
-    }
-    .Education-logo-emis{
-        margin-left: auto;
-    }
-    .Education-logo-mes{
-        margin-right: auto;
-    }
-    .footer-copyright{
-        margin-top: 25px;
-    }
-    .footer-copyright-span{
-        text-align: center;
 
-    }
-    .chatbots-box-img2{
-        display: none;
-    }
-    .chatbots-box-img3{
-        display: block;
-    }
-    .chatbots-box{
-        display: block;
-    }
-    .chatbots-text-item{
-        display: block;
-        width: 100%;
-        height: initial;
-    }
-    .chatbots-box-img img{
-        margin: 0 auto;
-    }
-    .chatbots-box-contant{
-        padding-left: 0;
-    }
-    .chatbots-box-title{
-        text-align: center;
-    }
-    .chatbots-box-title-a{
-        margin: 28px auto 0 auto;
-        width: fit-content;
-    }
-    .chatbots-title-h2{
-        text-align: center;
-    }
-    .chatbots-create-a{
-        margin-top: 30px;
-        width: 100%;
-        text-align: center;
-        display: block;
+@media only screen and (max-width: 415px) {
+    .imereti-chatbot-box-content {
+        padding: 40px 15px 60px 15px;
     }
 }

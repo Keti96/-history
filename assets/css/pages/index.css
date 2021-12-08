@@ -4,6 +4,11 @@
     flex-grow: inherit;
 }
 
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: transparent;
+}
+
 .history-header {
     padding-top: 36px;
     background: rgba(238, 246, 255, 0.9);
@@ -13,6 +18,7 @@
 .navbar {
     padding-top: 0;
     padding-bottom: 0;
+    display: block;
 }
 
 .navbar-brand {
@@ -121,24 +127,16 @@
     padding-top: 64px;
 }
 
-.kartli-img {
-    width: 526.43px;
-    height: 445px;
-}
-
-.imereti-img {
-    width: 521px;
-    height: 458px;
-}
-
 .kartli-chatbot-item {
     margin-top: 88px;
     margin-left: 38.6px;
+    width: 50%;
 }
 
 .imereti-chatbot-item {
     margin-top: 101px;
     margin-left: 82px;
+    width: 50%;
 }
 
 .kartli-chatbot-title, .imereti-chatbot-title {
@@ -168,6 +166,7 @@
     font-size: 16px;
     line-height: 19.2px;
     color: #FFC801;
+    align-items: center;
 }
 
 .kartli-chatbot-a:hover, .imereti-chatbot-a:hover {
@@ -199,11 +198,15 @@
     line-height: 38.4px;
     color: #08092B;
     font-feature-settings: 'case' on;
+    align-self: center;
 }
-
+.small-arrow {
+    display: none;
+}
 .other-chatbots-span {
     font-family: 'FiraGo ExtraBold';
 }
+
 
 .history-footer {
     margin-top: 136px;
@@ -218,7 +221,7 @@
 .footer-nav-p {
     font-family: 'FiraGo';
     font-size: 14px;
-    line-height: 14px;
+    line-height: 18px;
     color: #9191A6;
     align-self: center;
 }

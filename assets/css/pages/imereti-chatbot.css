@@ -6,6 +6,7 @@
 .imereti-chatbot-box {
     background-color: #FFFFFF;
     display: flex;
+    padding: 0;
 }
 .imereti-chatbot-box-content {  
     padding: 85px 113px 0 67px;
@@ -28,6 +29,10 @@
     line-height: 23.8px;
     color: rgba(59, 60, 82, .7);
     padding-top: 74px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
 }
 .pl-0 {
     padding-left: 0!important;
