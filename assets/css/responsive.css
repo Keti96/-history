@@ -19,8 +19,8 @@
     }
 
     .popup .close {
-        right: 40px;
-        top: 35px;
+        right: 82px;
+        top: 2px;
     }
 
     .x-white {
@@ -29,6 +29,9 @@
 
     .x-black {
         display: initial;
+    }
+    .about-project-content {
+        margin: 8% 12%;
     }
 }
 
@@ -122,7 +125,18 @@
     .imereti-chatbot-box-p {
         padding-top: 24px;
     }
+    .close-icon {
+        display: none;
+    }
+    
+    .close-black {
+        display: initial;
+    }
 
+    .popup .close {
+        right: 136px;
+        top: 20px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -195,6 +209,19 @@
     /* imereti chatbot */
     .imereti-chatbot-box-content {
         padding: 40px 10px 0 34px;
+    }
+
+    .popup .close {
+        right: 65px;
+        top: 20px;
+    }
+
+    .about-project-content {
+        margin: 12% 8%;
+    }
+
+    .popup {
+        margin: 0 auto;
     }
 }
 
@@ -333,6 +360,11 @@
 
     .imereti-chatbot-box-title {
         font-size: 20px;
+    }
+
+    .popup .close {
+        right: 50px;
+        top: 20px;
     }
 }
 

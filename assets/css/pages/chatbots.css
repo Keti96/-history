@@ -127,6 +127,9 @@
     right: -75px;
 }
 
+.close-black {
+    display: none;
+}
 /* .about-project-content {
     width: 1132px;
 } */
