@@ -140,6 +140,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .chatbot__container{
+        display: none;
+    }
     .history-footer {
         margin-top: 75px;
         padding-bottom: 65px;
