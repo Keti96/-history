@@ -443,4 +443,7 @@
     .imereti-chatbot-box-content {
         padding: 40px 15px 60px 15px;
     }
+    .chatbots-box-title {
+        font-size: 14px;
+    }
 }
