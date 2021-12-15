@@ -137,6 +137,9 @@
         right: 136px;
         top: 20px;
     }
+    .imereti-chatbot-box-content {
+        padding: 48px 40px 0 67px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -211,7 +214,11 @@
 
     /* imereti chatbot */
     .imereti-chatbot-box-content {
-        padding: 40px 10px 0 34px;
+        padding: 16px 10px 0 20px;
+    }
+
+    .imereti-chatbot-box-p {
+        padding-top: 12px;
     }
 
     .popup .close {
@@ -318,8 +325,10 @@
     }
 
     .imereti-chatbot-box-p {
-        padding-top: 24px;
-        -webkit-line-clamp: 2;
+        padding-top: 5px;
+    }
+    .imereti-chatbot-box-content {
+        padding: 15px 10px 15px 20px;
     }
 
     .imereti-chatbot-box-title {
@@ -355,6 +364,7 @@
         flex-direction: column;
         margin-top: 55px;
     }
+    
 
     /* imereti page */
     .imereti-chatbot-box-p {
@@ -368,6 +378,19 @@
     .popup .close {
         right: 50px;
         top: 20px;
+    }
+
+    .imereti-chatbot-box img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .imereti-chatbot-box {
+        flex-direction: column;
+    }
+
+    .imereti-chatbot-box-content {
+        padding: 40px 20px 50px 20px;
     }
 }
 
@@ -387,7 +410,7 @@
     }
 
     /* imereti page */
-    .imereti-chatbot-box img {
+    /* .imereti-chatbot-box img {
         width: 100%;
         margin: 0 auto;
     }
@@ -398,7 +421,7 @@
 
     .imereti-chatbot-box-content {
         padding: 40px 10px 60px 34px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 415px) {

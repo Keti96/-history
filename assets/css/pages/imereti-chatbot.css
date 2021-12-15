@@ -28,11 +28,11 @@
     font-size: 14px;
     line-height: 23.8px;
     color: rgba(59, 60, 82, .7);
-    padding-top: 74px;
-    display: -webkit-box;
+    padding-top: 34px;
+    /* display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
-    overflow: hidden;
+    overflow: hidden; */
 }
 .pl-0 {
     padding-left: 0!important;
