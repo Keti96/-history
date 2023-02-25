@@ -128,7 +128,7 @@
     .close-icon {
         display: none;
     }
-    
+
     .close-black {
         display: initial;
     }
@@ -147,8 +147,15 @@
 
 @media only screen and (max-width: 768px) {
     .chatbot__container{
-        display: none;
+      right: 10px;
+      bottom: 10px;
     }
+
+
+    #chatbotIframe {
+      width: 300px !important;
+    }
+
     .history-footer {
         margin-top: 75px;
         padding-bottom: 65px;
@@ -339,8 +346,8 @@
     .kartli-chatbot-box-content {
         padding: 32px 10px 15px 20px;
     }
-    
-    
+
+
 
     .imereti-chatbot-box-title {
         font-size: 24px;
@@ -375,7 +382,7 @@
         flex-direction: column;
         margin-top: 55px;
     }
-    
+
 
     /* imereti page */
     .imereti-chatbot-box-p {
