@@ -35,3 +35,40 @@
   }
 
 
+.chatbots-box-title {
+    line-height: 1.4;
+    font-size: 16px;
+}
+
+.chatbots-box-title-span {
+   font-size: 22px;
+}
+
+
+.chatbots-box-img  {
+    display: flex;
+    align-items: center;
+}
+
+.chatbots-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 567px) {
+.chatbots-box-img1 img {
+    width: 100%;
+}
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 568px) {
+.chatbots-box-img img {
+    width: 264px;
+}
+
+.chatbots-box {
+    width: 70%;
+}
+}
