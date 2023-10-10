@@ -12,7 +12,10 @@
 @import "./responsive.css";
 
 
-
+.home-chatbot-image {
+    width: 35%;
+ }
+ 
 
 @media only screen and (min-width: 1200px) {
     .chatbots-box {
@@ -72,3 +75,5 @@
     width: 70%;
 }
 }
+
+
